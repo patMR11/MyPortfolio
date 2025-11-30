@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Travel Website",
+        "image": "/images/travel.png",
+        "description": "Interactive travel platform featuring destination browsing, trip details, and a clean, modern user interface.",
+        "languages":["HTML", "CSS", "React", "JavaScript"],
+        "github":"",
+        "demo":""
+    },
+    {
+        "name": "Sports E-commerce Platform",
+        "image": "/images/sports.jpg",
+        "description": "Sports marketplace showcasing equipment, apparel, and accessories with fast, seamless user interactions.",
+        "languages":["HTML", "CSS", "React", "JavaScript"],
+        "github":"",
+        "demo":""
+    },
+    {
+        "name": "Youtube Clone Platform",
+        "image":"/images/youtube.png",
+        "description": "YouTube clone with responsive design and user channels, leveraging YouTube's API to fetch video details, statistics, and trending content dynamically.",
+        "languages":["HTML", "CSS", "React", "JavaScript", "API integration"],
+        "github":"",
+        "demo":""
+    },
+    {
+        "name": "Film search platform",
+        "image":"/images/patmovies.png",
+        "description": "Interactive movie finder that retrieves film data via asynchronous API requests and displays results in a clean UI.",
+        "languages":["HTML", "CSS", "React", "JavaScript", "API integration"],
+        "github":"",
+        "demo":""
+    },
+    {
+        "name": "Pat+ Platform",
+        "image":"/images/pat+.png",
+        "description": "Sleek streaming platform with dark mode, adaptive layout, and organized content browsing.",
+        "languages":["HTML", "CSS", "JavaScript"],
+        "github":"",
+        "demo":""
+    },
+    {
+        "name": "Simple Tic-Tac-Toe",
+        "image":"/images/tictactoe.png",
+        "description": "Simple two-player tic-tac-toe game.",
+        "languages":["HTML", "CSS", "JavaScript"],
+        "github":"",
+        "demo":""
+    }
+
+]
