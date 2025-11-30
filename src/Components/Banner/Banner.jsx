@@ -10,7 +10,7 @@ function Banner() {
           </div>
           <h2 className='text-4xl font-bold text-white'>Software Developer</h2>
           <div className='text-white flex gap-2 items-center text-lg'>
-              <i class="fa-solid fa-graduation-cap"></i>
+              <i className="fa-solid fa-graduation-cap"></i>
               <p>Bachelor of Information Technology</p>
           </div>
           <p className='text-lg font-medium text-white'>A software developer focused on crafting elegant solutions to complex problems.
@@ -18,7 +18,7 @@ function Banner() {
           I'm always seeking new opportunities to grow, refine my skills, and deliver meaningful results </p>
           <button className='banner-button'>
             View My Work &nbsp;
-            <i class="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right"></i>
           </button>
       </div>
     </div>

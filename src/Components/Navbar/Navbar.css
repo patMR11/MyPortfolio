@@ -36,7 +36,7 @@ nav ul{
 .small-menu{
     display: none;
 }
-.smallMenu-list.open{
+.smallMenu-list{
     background-color: rgb(32, 30, 30);
     color: white;
     position: absolute;
@@ -44,9 +44,14 @@ nav ul{
     right: 0;
     left: 0;
     width: 100%;
+    overflow: hidden;
+    z-index:100;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out
+                
 }
-.smallMenu-list.close{
-    display: none;
+.smallMenu-list.open{
+    max-height: 20rem;
 }
 .smallMenu-list ul{
     display: inline-block;
@@ -69,5 +74,6 @@ nav ul{
     } 
     .small-menu{
         display: block;
+        cursor: pointer;
     }
 }

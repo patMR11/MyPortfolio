@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../../../public/images/pat_logo.png'
+import logo from '../../../public/images/pat_logo.webp'
 import { useState } from 'react'
 import { useEffect } from 'react'
 function Navbar() {
@@ -17,22 +17,20 @@ function Navbar() {
                 <li>About</li>
                 <li>Projects</li>
                 <li>Contact</li>
-                <li className='resume'>Resume</li>
+                <li><a href="../../../public/resume.pdf" aria-label="Download my resume" target='_blank' rel='noopener noreferrer' className='resume'>Resume</a></li>
             </ul>
             <div className='small-menu' onClick={()=>{
                 setSmallMenu(prev=>!prev)
                 }}>
                     {console.log(smallMenu)}
-                <i class="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
             </div>
-            <div className={`smallMenu-list ${smallMenu? "open": "close"}`}>
+            <div className={`smallMenu-list ${smallMenu? "open": ""}`}>
                 <ul>
                     <li>About</li>
                     <li>Projects</li>
-                    <hr />
                     <li>Contact</li>
-                    <hr />
-                    <li className='resume'>Resume</li>
+                    <li><a href="../../../public/resume.pdf" aria-label="Download my resume" target='_blank' rel='noopener noreferrer' className='resume'>Resume</a></li>
                 </ul>
             </div>
         </nav>

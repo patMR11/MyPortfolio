@@ -10,8 +10,8 @@ function Contact() {
                  I'm always open to discussing new projects, creative ideas, 
                 or opportunities to be part of your vision.</p>
                 <div className='flex items-center justify-center gap-4'>
-                    <a href="https://github.com/patMR11" target='_blank'><i class="fa-brands fa-github text-4xl text-white hover:text-[#1E90FF]"></i></a>
-                    <a href="https://linkedin.com/in/patrick-rukera/" target='_blank'><i class="fa-brands fa-linkedin text-4xl text-white hover:text-[#1E90FF]"></i></a>
+                    <a href="https://github.com/patMR11" aria-label="view my github" target='_blank'><i className="fa-brands fa-github text-4xl text-white hover:text-[#1E90FF]"></i></a>
+                    <a href="https://linkedin.com/in/patrick-rukera/" aria-label="let's connect on linkedin" target='_blank'><i className="fa-brands fa-linkedin text-4xl text-white hover:text-[#1E90FF]"></i></a>
                 </div>
             </div>
         </div>
