@@ -1,8 +1,14 @@
 import React from 'react'
 import './Banner.css'
 function Banner() {
+  const scrollToSection = (id)=>{
+        document.getElementById(id).scrollIntoView({
+            behavior:"smooth"
+        })
+    }
+
   return (
-    <div className='min-h-screen bg-black p-8 mt-16 z-1'>
+    <section className='min-h-screen bg-black p-8 mt-16 z-1'>
         <div className='border-2 border-black space-y-6 max-w-5xl p-8'>
           <div className='space-y-2'>
               <p className='text-lg font-medium text-white'>Hello, My name is...</p>
@@ -16,12 +22,12 @@ function Banner() {
           <p className='text-lg font-medium text-white'>A software developer focused on crafting elegant solutions to complex problems.
           Driven by  curiosity and a passion for continuous learning, 
           I'm always seeking new opportunities to grow, refine my skills, and deliver meaningful results </p>
-          <button className='banner-button'>
+          <button className='banner-button' onClick={()=>scrollToSection('projects')}>
             View My Work &nbsp;
             <i className="fa-solid fa-arrow-right"></i>
           </button>
       </div>
-    </div>
+    </section>
    
   )
 }

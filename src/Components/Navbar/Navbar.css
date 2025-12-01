@@ -60,8 +60,12 @@ nav ul{
 .smallMenu-list ul li{
     padding: 0.5rem 0.5rem;
     width: 100%;
+    cursor:pointer;
     text-align: end;
     border-bottom: 1px solid white;
+}
+.smallMenu-list ul li:hover{
+    color: #1E90FF;
 }
 .nav-list .resume:hover{
     background-color: #1E90FF;

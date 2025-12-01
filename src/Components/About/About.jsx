@@ -2,7 +2,7 @@ import React from 'react'
 import profile from '../../../public/images/pfp.webp'
 function About() {
   return (
-    <div className='bg-black py-16 px-8 text-white gap-8 md:grid md:grid-cols-9'>
+    <section id='about' className='bg-black py-16 px-8 text-white gap-8 md:grid md:grid-cols-9'>
         <div className='space-y-4 md:col-span-6 px-8 mb-2'>
             <h1 className='font-bold text-4xl text-center md:text-left text-[#1E90FF]'>About Me</h1>
             <div>
@@ -34,7 +34,7 @@ function About() {
         <div className='h-72 md:h-96 flex justify-center md:col-span-3 lg:col-span-2'>
             <img src={profile} alt="profile picture" className='h-full rounded-[50%]'/>
         </div>
-    </div>
+    </section>
   )
 }
 

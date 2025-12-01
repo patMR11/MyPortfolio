@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='py-6 text-white bg-black'>
+    <section id='contact' className='py-6 text-white bg-black'>
         <div className='space-y-3'>
             <h1 className='font-bold text-4xl text-center'>Get in touch!</h1>
             <div className='max-w-2xl mx-auto space-y-6 p-4'>
@@ -15,7 +15,7 @@ function Contact() {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 
