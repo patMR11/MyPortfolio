@@ -1,23 +1,26 @@
 [
     {
         "name": "Travel Website",
-        "image": "/images/travel.png",
+        "image": "/images/travel.webp",
+        "alt":"Travel website",
         "description": "Interactive travel platform featuring destination browsing, trip details, and a clean, modern user interface.",
         "languages":["HTML", "CSS", "React", "JavaScript"],
-        "github":"",
+        "github":"https://github.com/patMR11/Travel_Website",
         "demo":""
     },
     {
         "name": "Sports E-commerce Platform",
-        "image": "/images/sports.jpg",
+        "image": "/images/sports.webp",
+        "alt":"Sports E-commerce website",
         "description": "Sports marketplace showcasing equipment, apparel, and accessories with fast, seamless user interactions.",
         "languages":["HTML", "CSS", "React", "JavaScript"],
-        "github":"",
+        "github":"https://github.com/patMR11/e-commerce-site",
         "demo":""
     },
     {
         "name": "Youtube Clone Platform",
-        "image":"/images/youtube.png",
+        "image":"/images/youtube.webp",
+        "alt":"Youtube clone website",
         "description": "YouTube clone with responsive design and user channels, leveraging YouTube's API to fetch video details, statistics, and trending content dynamically.",
         "languages":["HTML", "CSS", "React", "JavaScript", "API integration"],
         "github":"",
@@ -25,26 +28,29 @@
     },
     {
         "name": "Film search platform",
-        "image":"/images/patmovies.png",
+        "image":"/images/patmovies.webp",
+        "alt":"Film search platform",
         "description": "Interactive movie finder that retrieves film data via asynchronous API requests and displays results in a clean UI.",
         "languages":["HTML", "CSS", "React", "JavaScript", "API integration"],
-        "github":"",
+        "github":"https://github.com/patMR11/MovieAPI_App",
         "demo":""
     },
     {
         "name": "Pat+ Platform",
-        "image":"/images/pat+.png",
+        "image":"/images/pat+.webp",
+        "alt":"Pat+ website",
         "description": "Sleek streaming platform with dark mode, adaptive layout, and organized content browsing.",
         "languages":["HTML", "CSS", "JavaScript"],
-        "github":"",
+        "github":"https://github.com/patMR11/Streaming-Clone",
         "demo":""
     },
     {
         "name": "Simple Tic-Tac-Toe",
-        "image":"/images/tictactoe.png",
+        "image":"/images/tictactoe.webp",
+        "alt":"Simple Tic-Tac-Toe game",
         "description": "Simple two-player tic-tac-toe game.",
         "languages":["HTML", "CSS", "JavaScript"],
-        "github":"",
+        "github":"https://github.com/patMR11/SimpleReact_TicTacToe",
         "demo":""
     }
 
