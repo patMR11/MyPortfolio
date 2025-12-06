@@ -6,7 +6,7 @@
         "description": "Interactive travel platform featuring destination browsing, trip details, and a clean, modern user interface.",
         "languages":["HTML", "CSS", "React", "JavaScript"],
         "github":"https://github.com/patMR11/Travel_Website",
-        "demo":""
+        "demo":"https://patmr11.github.io/Travel_Website/"
     },
     {
         "name": "Sports E-commerce Platform",
@@ -15,7 +15,7 @@
         "description": "Sports marketplace showcasing equipment, apparel, and accessories with fast, seamless user interactions.",
         "languages":["HTML", "CSS", "React", "JavaScript"],
         "github":"https://github.com/patMR11/e-commerce-site",
-        "demo":""
+        "demo":"https://patmr11.github.io/e-commerce-site/"
     },
     {
         "name": "Youtube Clone Platform",
@@ -33,7 +33,7 @@
         "description": "Interactive movie finder that retrieves film data via asynchronous API requests and displays results in a clean UI.",
         "languages":["HTML", "CSS", "React", "JavaScript", "API integration"],
         "github":"https://github.com/patMR11/MovieAPI_App",
-        "demo":""
+        "demo":"https://patmr11.github.io/MovieAPI_App/"
     },
     {
         "name": "Pat+ Platform",
@@ -42,7 +42,7 @@
         "description": "Sleek streaming platform with dark mode, adaptive layout, and organized content browsing.",
         "languages":["HTML", "CSS", "JavaScript"],
         "github":"https://github.com/patMR11/Streaming-Clone",
-        "demo":""
+        "demo":"https://patmr11.github.io/Streaming-Clone/"
     },
     {
         "name": "Simple Tic-Tac-Toe",
@@ -51,7 +51,7 @@
         "description": "Simple two-player tic-tac-toe game.",
         "languages":["HTML", "CSS", "JavaScript"],
         "github":"https://github.com/patMR11/SimpleReact_TicTacToe",
-        "demo":""
+        "demo":"https://patmr11.github.io/SimpleReact_TicTacToe/"
     }
 
 ]
