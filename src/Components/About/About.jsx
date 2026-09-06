@@ -7,7 +7,7 @@ function About() {
             <h1 className='font-bold text-4xl text-center md:text-left text-[#1E90FF]'>About Me</h1>
             <div>
                 <p>I am a passionate software developer graduate with a Bachelor of information technology.
-                    I have used JavaScript, React, HTML, CSS and Tailwind CSS to create fast, optimized applications that deliver exceptional user experiences. 
+                    I have used JavaScript, React, Angular, HTML, CSS and Tailwind CSS to create fast, optimized applications that deliver exceptional user experiences. 
                     Additionally, I have a solid foundation in Python, along with some experience in SQL and Java. 
                     Currently, I am open to opportunities where I can continue to learn, contribute, and grow as a software developer. 
                     </p>
@@ -19,6 +19,7 @@ function About() {
                         <li><i className="fa-brands fa-html5 text-[#1E90FF]"></i> HTML</li>
                         <li><i className="fa-brands fa-js text-[#1E90FF]"></i> JavaScript</li>
                         <li> <i className="fa-brands fa-react text-[#1E90FF]"></i> React</li>
+                        <li> <i className="fa-brands fa-angular text-[#1E90FF]"></i> Angular</li>
                         <li><i className="fa-brands fa-css3 text-[#1E90FF]"></i> CSS</li>
                         <li className='flex items-center'>
                         <svg className="w-6 h-6 text-[#1E90FF] dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
